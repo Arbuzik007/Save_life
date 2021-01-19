@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<title>Дз 4(супер продвинутый)</title>
+	
+	<style>
+					
+			h1{
+  		 color: #d6d6d6;
+  		}	
+  		
+  		.two{
+  		 color: #2a58ff;
+  		}
+  		
+  		.one{
+  		 background-color: #2a58ff;
+  		}
+  		
+  		h2, h3{
+  		 color: #202020;
+  		}
+  		
+  		body{
+  		 color: #7b7b86;
+  		}	
+					
+	</style>
+	
+</head>
+<body>
+		
+	<form>
+	<h1>Автопомощь<h1/><hr>
+	<h2>Заявка</h2>
+ <p>Оставьте нам заявку о том, что готовы помочь.<br>Когда нам будет необходима помощь в<br> транспортировке, мы позвоним вам.</p>
+ <input type="text" id="namename" name="username" placeholder="Фамилия и имя"><br>
+ <label for="namename">Фамилия и имя</label><br>
+ <input type="tel" id="tel" name="username" placeholder="Номер телефона" required="" minlength="13" maxleagth="13"><br>
+ <label for="tel">Номер телефона</label><br>
+ <h3>Выберите удобное время, когда вы сможете нам помочь</h3>
+ <select id="menu" name="menu" placeholder="Время">
+ 				<option value="value1">
+ 							1
+ 				</option>
+ 				<option value="value2">
+ 							2
+ 				</option>
+ 				<option value="value3">
+ 							3
+ 				</option>
+ </select><br>
+ <label for="menu">Время</label><br>
+ <input type="checkbox" id="cе" value="cе" name="days">
+ <label for="cе">В любой будний день</label><br>
+ <input type="checkbox" id="dе" value="dе" name="days">
+ <label for="dе">В любой выходной день</label><br>
+ 
+ 
+ 
+	<h3>Выберите вид автопомощи</h3>
+	 <input type="checkbox" id="a" value="a" name="days">
+ <label for="a">Доставка еды, медикаментов и других небольших вещей</label><br>
+ <input type="checkbox" id="b" value="b" name="days">
+ <label for="b">Доставка сена и соломы, строительных материалов<br> для будок и других крупногабаритных вещей</label><br>
+ <input type="checkbox" id="c" value="c" name="days">
+ <label for="c">Транспортировка небольших собак и котов</label><br>
+ <input type="checkbox" id="d" value="d" name="days">
+ <label for="d">Транспортировка больших собак</label><br>
+	<input type="text" id="name" name="username" placeholder="Замечания"><br>
+	<label for="name">Замечания</label><br>
+	<button class="one" type="submit">Оставить заявку</button>
+	<button class="two" type="reset">Отмена</button>
+	</form>
+	
+</body>
+</html>

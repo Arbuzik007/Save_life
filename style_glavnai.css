@@ -1,0 +1,178 @@
+   @font-face {
+  font-family: 'Gilroy';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src:url(https://github.com/Arbuzik007/Save_life/blob/main/fonts/gilroy-regular.woff2) format('woff2'),
+      url(https://github.com/Arbuzik007/Save_life/blob/main/fonts/Gilroy-Regular.woff) format('woff');
+}
+@font-face {
+  font-family: 'Gilroy';
+  font-style: normal;
+  font-weight: 250;
+  font-display: swap;
+  src:url(https://github.com/Arbuzik007/Save_life/blob/main/fonts/gilroy-ultralight.woff2) format('woff2'),
+      url(https://github.com/Arbuzik007/Save_life/blob/main/fonts/Gilroy-UltraLight.woff) format('woff');
+}
+@font-face {
+  font-family: 'Gilroy';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src:url(https://github.com/Arbuzik007/Save_life/blob/main/fonts/gilroy-bold.woff2) format('woff2'),
+      url(https://github.com/Arbuzik007/Save_life/blob/main/fonts/Gilroy-Bold.woff) format('woff');
+}
+@font-face {
+  font-family: 'Gilroy';
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src:url(https://github.com/Arbuzik007/Save_life/blob/main/fonts/gilroy-medium.woff2) format('woff2'),
+      url(https://github.com/Arbuzik007/Save_life/blob/main/fonts/Gilroy-Medium.woff) format('woff');
+}
+@font-face {
+  font-family: 'Gilroy';
+  font-style: normal;
+  font-weight: 600;
+  font-display: swap;
+  src:url(https://github.com/Arbuzik007/Save_life/blob/main/fonts/gilroy-semibold.woff2) format('woff2'),
+      url(https://github.com/Arbuzik007/Save_life/blob/main/fonts/Gilroy-SemiBold.woff) format('woff');
+}
+
+*{
+  padding: 0px; /*внутрений отступ*/
+  margin: 0px; /*внешеий отступ*/
+}	 
+	
+body{
+  background-color: #E5E5E5;
+}
+
+
+
+.nav{
+    max-width: 1366px;
+    display: flex;
+    justify-content: space-around;
+    background-color: #E5E5E5;
+}
+
+.nav__ul{
+   display: flex;
+   align-items: center;
+
+}
+
+.nav__li{
+  list-style-type: none;
+  display: flex;
+  padding-right: 30px;
+  z-index: 2;
+}
+
+.nav__li a{
+   text-decoration: none;
+  color: #242424;
+}
+
+.div-dog{
+  position: absolute;
+  max-width: 718px;
+  max-height: 713px;
+  padding-left: 560px;
+  top: 0px;
+  /*padding-right: 110px;*/
+}
+.div-dog__dog{
+  /*position: absolute;*/
+  /*right top;*/
+  border-radius: 0px 0px 8px 8px;
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+
+}
+
+.cat{
+position: absolute;
+max-width: 483px;
+height: auto;
+left: 607px;
+top: 470px;
+
+background: url("https://arbuzik007.github.io/Save_life/pictures/cat1.png");
+background-size: cover;
+}
+
+.text__h1{
+position: absolute;
+width: 659px;
+height: 77px;
+left: 110px;
+top: 110px;
+
+font-family: Gilroy;
+font-style: normal;
+font-weight: bold;
+font-size: 72px;
+line-height: 87px;
+display: flex;
+align-items: center;
+
+color: #242424;
+}
+
+.text__p{
+position: absolute;
+width: 659px;
+height: 18px;
+left: 110px;
+top: 243px;
+
+font-family: Gilroy;
+font-style: normal;
+font-weight: 300;
+font-size: 16px;
+line-height: 18px;
+color: #6B6B6B;
+}
+
+.text__p-2{
+position: absolute;
+width: 659px;
+height: 44px;
+left: 110px;
+top: 273px;
+
+font-family: Gilroy;
+font-style: normal;
+font-weight: 600;
+font-size: 16px;
+line-height: 140%;
+
+color: #474747;
+}
+
+.text__p-3{
+position: absolute;
+width: 428px;
+height: 116px;
+left: 110px;
+top: 360px;
+
+font-family: Gilroy;
+font-style: normal;
+font-weight: 600;
+font-size: 24px;
+line-height: 29px;
+
+color: #C78100;
+}
+
+.text__button{
+position: absolute;
+width: 183px;
+height: 42px;
+left: 110px;
+top: 520px;
+}
